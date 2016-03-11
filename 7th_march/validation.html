@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		function validate(){
+			if(document.myform.check.checked)
+				alert ("All right");
+			else
+				alert("check it");
+		}
+		/*function validation(email) { 
+ 			var reg = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+ 			if (reg.test(email)){
+ 				return true; 
+		}
+ 			else{
+ 				return false;
+				 } 
+}*/ 
+	</script>
+	</head>
+	<body>
+		<form name="myform">
+			<input type="checkbox" name="check" />
+			<input type="button" value="Click" onClick="validate()" />
+			//username : <input type="text" name="username" onClick="validation(abc.def@google.com)"/>
+		</form>
+		 
+			
+	</body>
+	
+
+</html>

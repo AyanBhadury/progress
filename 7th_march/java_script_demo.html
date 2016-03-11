@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+	</head>
+	<body onUnload="alert('Do you want to exit');">
+		<script type="text/javascript"> 
+			function funky(){
+				alert("Wow!! Good Job!!");
+			}
+			function sum(a,b){
+				s=a+b;
+				
+				document.getElementById("s").innerHTML=s;
+			}
+		
+			//document.write(sum(15,10));
+			
+			
+		</script>
+		<form>
+			<input type="button" value="Press" onclick="funky();"/> 
+			<input type="button" value="Calculate" onclick="sum(15,10);"/>
+			<lable id="s"> </lable>
+		</form>
+	</body>
+	
+	
+	
+</html>
